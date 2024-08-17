@@ -1,0 +1,143 @@
+/* Start Variables*/
+
+/* End Variables*/
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #5555;
+}
+
+.container {
+    margin-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));   
+}
+
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+.container .feat img {
+    border-radius: 10px;
+    width: 340px;
+    height: 200px;
+}
+.container .feat .By img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 100px 100px 0 0 #111 inset;
+    
+}
+.feat {
+    margin: 10px;
+    position: relative;
+    padding: 4px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+.fee div  {
+    display: inline;
+}
+.line {
+    position: absolute;
+    width: 98%;
+    height: .5px;
+    background-color: #666;
+}
+.stars span{
+    position: relative;
+    top: 20px;
+}
+.stars i:not(last-child) {
+    color: rgb(244, 201, 9);
+    position: relative;
+    top: 20px;
+
+}
+.stars i:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    left: 290px;
+    top: -10px;
+    background-color: #aaaaaa;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #111;
+
+}
+.details {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    background-color:rgba(190, 190, 185, 0.6);
+    margin: 10px;
+    height: 25px;
+    width: 200px;
+    color: #666;
+    border:3px solid #aaaaaa;
+ 
+}
+.details span {
+    position: relative;
+    bottom: -2px;
+    
+}
+.discr {
+    margin: 10px;
+    color:#666 ;
+}
+.last {
+    position: relative;
+    left: 90px;
+
+}
+.fee{
+    position: relative;
+    height: 40px;
+    top: 10px;
+}
+.fee div:nth-child(2) {
+    color: rgb(226, 12, 12);
+    font-size: 20px;
+}
+.By span span {
+    position: relative;
+    top: -2px;
+    color: #666;
+}
+.By span  {
+    position: relative;
+    bottom: 15px;
+    font-weight: 500;
+}
